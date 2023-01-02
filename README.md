@@ -1,5 +1,5 @@
 # A-Vacation-Destination-WishList-Form
--This is one of my projects created while learning Javascript.
+- This is one of my projects created while learning Javascript.
 
 #Features
 - You enter details of the destination you wish to go to on your vacation and this gets stored as a card.
