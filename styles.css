@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1, h2, h3, h4, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+header {
+  padding: 3.125em;
+  background-color: cornflowerblue;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.25em;
+}
+
+main {
+  max-width: 800px;
+  padding: 1.25em;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main form {
+  width: 40%;
+}
+
+main article {
+  width: 45%;
+}
+
+/* The remaining 15% is the column gap btn the flex-items */
+
+h1, h2, h3, h4, p {
+  margin-bottom: 1em;
+}
+
+#title {
+  text-align: center;
+}
+
+/* Forms can be challenging to style, Here are just of the few basic rules for it to look better */
+
+label {
+  display: block;
+  margin-bottom: .5em;
+}
+
+input, textarea, #destination_details_form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid #666;
+  padding: 0.625em;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 1.25em;
+  background-color: #efefef;
+  margin-bottom: 1.25em;
+}
